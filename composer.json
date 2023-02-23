@@ -15,7 +15,8 @@
         "ext-zlib": "*",
         "lubed/utils": "dev-main",
         "lubed/data": "dev-main",
-        "lubed/models": "dev-main"
+        "lubed/models": "dev-main",
+        "lubed/generate": "dev-main"
     },
     "require-dev": {
         "symfony/var-dumper": "^5.3"
