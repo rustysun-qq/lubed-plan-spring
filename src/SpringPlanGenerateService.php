@@ -1,7 +1,7 @@
 <?php
 namespace Lubed\Spring;
 
-use DefaultGeneratePlanModel;
+use Lubed\Models\DefaultGeneratePlanModel;
 use Lubed\Utils\Config;
 use Lubed\Utils\Constant;
 use Lubed\Utils\Path;
