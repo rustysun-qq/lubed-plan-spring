@@ -2,7 +2,6 @@
     "name": "lubed/spring",
     "description": "Lubed spring code generator!",
     "license": "Apache-2.0",
-    "version": "0.1.0",
     "authors": [
         {
             "name": "cjj",
@@ -13,10 +12,10 @@
         "php": ">=7.3",
         "ext-pdo": "*",
         "ext-zlib": "*",
-        "lubed/utils": "dev-main",
-        "lubed/data": "dev-main",
-        "lubed/models": "dev-main",
-        "lubed/generate": "dev-main"
+        "lubed/utils": "0.1",
+        "lubed/data": "0.1",
+        "lubed/models": "0.1",
+        "lubed/generate": "0.1"
     },
     "require-dev": {
         "symfony/var-dumper": "5.4.*"

@@ -62,17 +62,12 @@ class SpringPlan implements GeneratePlan
         //输出
         $output_path = sprintf($this->config->get('outputPath'), $rootPath, $outputDir);
         $dataSource = $this->initDataSource();
-//        if(class_exists('DefaultGeneratePlanModel')) {
-//            die('ook');
-            $generate_plan_model = new DefaultGeneratePlanModel(
-                $planTemplate, $dataSource->getTablesData(), $this->config->get('generator'), $this->path->getResourcePath()
-            );
-            $generate_plan_model->build()->output($output_path);
-            die('ook');
-//        }
-//        else{
-//            die('failed');
-//        }
+
+        $generate_plan_model = new DefaultGeneratePlanModel(
+            $planTemplate, $dataSource->getTablesData(), $this->config->get('generator'), $this->path->getResourcePath()
+        );
+        $generate_plan_model->build()->output($output_path);
+        die('ook');
 
         return $this;
     }
